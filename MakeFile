@@ -1,0 +1,7 @@
+start:
+	dfx start
+stop:
+	dfx stop
+
+local_deploy:
+	dfx deploy
