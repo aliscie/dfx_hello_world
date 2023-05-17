@@ -1,10 +1,22 @@
-# hello_world
+# hello_world, dfx + Rust + React typescript
 
 Welcome to your new hello_world project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
 To learn more before you start working with hello_world, see the following documentation available online:
+# to get started
+1. `npm install`
+2. `npm build`
+3. `dfx start`
+4. `npm install webpack --save-dev`
+5. `npm start`
+6. `cargo build --release --target=wasm32-unknown-unknown`
+7. `dfx deploy --no-wallet --argument '("path/to/hello_world_backend.wasm",)'`
+8. go to your computer root directory and run $`sudo npm install -g webpack webpack-cli`
+9. `webpack --config path/to/webpack.config.js`
+10. `cargo build`
+9. `dfx deploy`
 
 - [Quick Start](https://smartcontracts.org/docs/quickstart/quickstart-intro.html)
 - [SDK Developer Tools](https://smartcontracts.org/docs/developers-guide/sdk-guide.html)
