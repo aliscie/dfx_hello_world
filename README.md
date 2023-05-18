@@ -47,3 +47,8 @@ dfx deploy
 ```
 
 Once the job completes, your application will be available at `http://localhost:4943?canisterId={asset_canister_id}`.
+
+# Trust types
+1. reproducible module hashes
+2. block-holed canisters
+3. SNS-controlled canisters

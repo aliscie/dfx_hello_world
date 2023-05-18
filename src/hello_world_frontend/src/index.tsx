@@ -22,7 +22,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../assets/index.css';
-import App from './App';
+import App from './App.tsx'';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
